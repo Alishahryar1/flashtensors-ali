@@ -11,8 +11,8 @@ except ImportError as e:
     print(f"Failed to import flashtensors: {e}")
     print("Make sure you've built and installed the C++ extensions:")
     print("1. cd flashtensors")
-    print("2. python setup.py build_ext --inplace")
-    print("3. python setup.py bdist_wheel")
+    print("2. python3 setup.py build_ext --inplace")
+    print("3. python3 setup.py bdist_wheel")
     print("4. pip install dist/*.whl")
     sys.exit(1)
 
